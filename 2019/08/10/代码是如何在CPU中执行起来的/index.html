@@ -93,13 +93,18 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="TengGeGe">
-<meta property="og:url" content="http://yoursite.com/archives/2019/index.html">
+  <meta name="description" content="1、编译型语言跟解释型语言的区别计算机是不能够识别高级语言的，所以当我们运行一个高级语言程序的时候，就需要一个“翻译机”来从事把高级语言转变成计算机能读懂的机器语言的过程。这个过程分成两类，第一种是编译，第二种是解释。编译型语言在程序执行之前，先会通过编译器对程序执行一个编译的过程，把程序转变成机器语言，然后通过链接器对不同文件编译后的文件进行链接，形成一个完整的二进制可执行文件。运行时就不需要翻">
+<meta name="keywords" content="计算机基础知识">
+<meta property="og:type" content="article">
+<meta property="og:title" content="代码是如何在CPU中执行起来的">
+<meta property="og:url" content="http://yoursite.com/2019/08/10/代码是如何在CPU中执行起来的/index.html">
 <meta property="og:site_name" content="TengGeGe">
+<meta property="og:description" content="1、编译型语言跟解释型语言的区别计算机是不能够识别高级语言的，所以当我们运行一个高级语言程序的时候，就需要一个“翻译机”来从事把高级语言转变成计算机能读懂的机器语言的过程。这个过程分成两类，第一种是编译，第二种是解释。编译型语言在程序执行之前，先会通过编译器对程序执行一个编译的过程，把程序转变成机器语言，然后通过链接器对不同文件编译后的文件进行链接，形成一个完整的二进制可执行文件。运行时就不需要翻">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-08-10T12:00:42.878Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="TengGeGe">
+<meta name="twitter:title" content="代码是如何在CPU中执行起来的">
+<meta name="twitter:description" content="1、编译型语言跟解释型语言的区别计算机是不能够识别高级语言的，所以当我们运行一个高级语言程序的时候，就需要一个“翻译机”来从事把高级语言转变成计算机能读懂的机器语言的过程。这个过程分成两类，第一种是编译，第二种是解释。编译型语言在程序执行之前，先会通过编译器对程序执行一个编译的过程，把程序转变成机器语言，然后通过链接器对不同文件编译后的文件进行链接，形成一个完整的二进制可执行文件。运行时就不需要翻">
 
 
 
@@ -107,7 +112,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/archives/2019/">
+  <link rel="canonical" href="http://yoursite.com/2019/08/10/代码是如何在CPU中执行起来的/">
 
 
 
@@ -118,7 +123,7 @@
 </script>
 
   
-  <title>归档 | TengGeGe</title>
+  <title>代码是如何在CPU中执行起来的 | TengGeGe</title>
   
 
 
@@ -176,7 +181,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -282,7 +287,7 @@
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
 
     
     
@@ -364,142 +369,291 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
 
-      
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        嗯..! 目前共计 2 篇日志。 继续努力。
-      </span>
-      
-
-      
-
-        
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2019">2019</h1>
-          </div>
-        
-        
-
-        
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/08/10/代码是如何在CPU中执行起来的/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Wu Teng">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="TengGeGe">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/2019/08/10/代码是如何在CPU中执行起来的/" itemprop="url">
-            
-              <span itemprop="name">代码是如何在CPU中执行起来的</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">代码是如何在CPU中执行起来的
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-08-10T19:59:06+08:00" content="2019-08-10">
-          08-10
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
 
+          
+          
+          
 
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-10 19:59:06 / 修改时间：20:00:42" itemprop="dateCreated datePublished" datetime="2019-08-10T19:59:06+08:00">2019-08-10</time>
+            </span>
+          
+
+          
+            
+
+            
+          
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span id="busuanzi_value_page_pv"></span>次阅读
+          
+
+          
+
+          <br>
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">本文字数：</span>
+              
+              <span title="本文字数"></span>
+            </span>
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              
+              <span title="阅读时长"></span>
+            </span>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/07/19/hello-world/" itemprop="url">
-            
-              <span itemprop="name">Hello World</span>
-            
-          </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-07-19T19:59:54+08:00" content="2019-07-19">
-          07-19
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
+      
+        <h1 id="1、编译型语言跟解释型语言的区别"><a href="#1、编译型语言跟解释型语言的区别" class="headerlink" title="1、编译型语言跟解释型语言的区别"></a>1、编译型语言跟解释型语言的区别</h1><p>计算机是不能够识别高级语言的，所以当我们运行一个高级语言程序的时候，就需要一个“翻译机”来从事把高级语言转变成计算机能读懂的机器语言的过程。这个过程分成两类，第一种是编译，第二种是解释。<br>编译型语言在程序执行之前，先会通过编译器对程序执行一个编译的过程，把程序转变成机器语言，然后通过链接器对不同文件编译后的文件进行链接，形成一个完整的二进制可执行文件。运行时就不需要翻译，而直接执行就可以了，最典型的例子就是C语言。解释型语言就没有这个编译的过程，而是在程序运行的时候，通过解释器对程序逐行作出解释，然后直接运行，最典型的例子是Ruby，因为编译型语言在程序运行之前就已经对程序做出了“翻译”，运行时就少掉了“翻译”的过程，所以效率比较高。然而，编译型语言的执行依赖于平台，生成的可执行文件不能在其他平台运行，跨平台的性较差。</p>
+<a id="more"></a>
+<p>此外，还有很多编译型也解释型混合的语言。 用Java来举例，Java属于半编译半解释型语言，它将源代码转编译成一种字节码文件(.class)，这种字节码文件可以被JVM（JAVA虚拟机）所识别，并对字节码文件进行解释，翻译成机器码并在CPU中运行。所谓一次编译，到处运行，是指在编译和运行中间，多了一个JVM这个抽象层。字节码依赖JVM，而不依赖于平台（操作系统），只要支持JVM，字节码就能运行，不同平台的兼容性，就由JVM来解决，开发者可以专注于开发业务逻辑，这解决了编译语言的跨平台问题。<br>python类似于Java，也是解释型语言的一种。编译后生成的也是字节码(.pyc)的文件形式，并由Python的字节码解释器去解释执行字节码，较为常见的字节码解释器为CPython。不同点在于，Python的编译并非强制执行的操作，确切来说Python的编译是自动的，通常发生在对某个模块（module）的调用过程中，编译成字节码的可以节省加载模块的时间，以此达到提高效率的目的。编译得到的字节码在python虚拟机中即可解释执行。编译的产物即在python虚拟机中是以PyCodeObject对象的形式存在，而在磁盘中就是我们可见的.pyc文件。</p>
+<h1 id="2、CPU是如何执行程序的"><a href="#2、CPU是如何执行程序的" class="headerlink" title="2、CPU是如何执行程序的"></a>2、CPU是如何执行程序的</h1><p>python等解释型语言编译成字节码后，由虚拟机将其转换成CPU可直接执行的机器码，机器码也是执行速度最快的代码。编译型语言则是直接编译成可执行文件，这些可执行文件本身就是CPU可识别并执行的机器码，那么CPU是如何执行机器码的呢？ </p>
+<h2 id="2-1-CPU的组成部件"><a href="#2-1-CPU的组成部件" class="headerlink" title="2.1 CPU的组成部件"></a>2.1 CPU的组成部件</h2><p>CPU主要由4个部分组成：</p>
+<ol>
+<li>算术逻辑单元ALU(Arithmetic Logic Unit)<br>ALU是运算器的核心。它是以全加器为基础，辅之以移位寄存器及相应控制逻辑组合而成的电路，在控制信号的作用下可完成加、减、乘、除四则运算和各种逻辑运算。</li>
+<li>寄存器组 RS(Register Set或Registers)<br>RS实质上是CPU中暂时存放数据的地方，里面保存着那些等待处理的数据，或已经处理过的数据，CPU访问寄存器所用的时间要比访问内存的时间短。采用寄存器，可以减少CPU访问内存的次数，从而提高了CPU的工作速度。但因为受到芯片面积和集成度所限，寄存器组的容量不可能很大。寄存器组可分为专用寄存器和通用寄存器。专用寄存器的作用是固定的，分别寄存相应的数据。而通用寄存器用途广泛并可由程序员规定其用途。通用寄存器的数目因微处理器而异。</li>
+<li>控制单元(Control Unit)<br>正如工厂的物流分配部门，控制单元是整个CPU的指挥控制中心，由指令寄存器IR(Instruction Register)、指令译码器ID(Instruction Decoder)和操作控制器OC(Operation Controller)三个部件组成，对协调整个电脑有序工作极为重要。它根据用户预先编好的程序，依次从存储器中取出各条指令，放在指令寄存器IR中，通过指令译码(分析)确定应该进行什么操作，然后通过操作控制器OC，按确定的时序，向相应的部件发出微操作控制信号。操作控制器OC中主要包括节拍脉冲发生器、控制矩阵、时钟脉冲发生器、复位电路和启停电路等控制逻辑。</li>
+<li>总线(Bus)<br>就像工厂中各部位之间的联系渠道，总线实际上是一组导线，是各种公共信号线的集合，用于作为电脑中所有各组成部分传输信息共同使用的“公路”。直接和CPU相连的总线可称为局部总线。其中包括：数据总线DB(Data Bus)、地址总线AB(Address Bus) 、控制总线CB(Control Bus)。其中，数据总线用来传输数据信息；地址总线用于传送CPU发出的地址信息；控制总线用来传送控制信号、时序信号和状态信息等。<h2 id="2-2-机器码在CPU中的执行过程"><a href="#2-2-机器码在CPU中的执行过程" class="headerlink" title="2.2 机器码在CPU中的执行过程"></a>2.2 机器码在CPU中的执行过程</h2>几乎所有的冯·诺伊曼型计算机的CPU，其工作都可以分为5个阶段：取指令、指令译码、执行指令、访存取数、结果写回。</li>
+</ol>
+<ul>
+<li><strong>取指令阶段</strong><br>取指令（Instruction Fetch，IF）阶段是将一条指令从主存中取到指令寄存器的过程。</li>
+<li><strong>指令译码阶段</strong><br>取出指令后，计算机立即进入指令译码（Instruction Decode，ID）阶段。在指令译码阶段，指令译码器按照预定的指令格式，对取回的指令进行拆分和解释，识别区分出不同的指令类别以及各种获取操作数的方法。在组合逻辑控制的计算机中，指令译码器对不同的指令操作码产生不同的控制电位，以形成不同的微操作序列；在微程序控制的计算机中，指令译码器用指令操作码来找到执行该指令的微程序的入口，并从此入口开始执行。</li>
+<li><strong>执行指令阶段</strong><br>在取指令和指令译码阶段之后，接着进入执行指令（Execute，EX）阶段。此阶段的任务是完成指令所规定的各种操作，具体实现指令的功能。为此，CPU的不同部分被连接起来，以执行所需的操作。例如，如果要求完成一个加法运算，算术逻辑单元ALU将被连接到一组输入和一组输出，输入端提供需要相加的数值，输出端将含有最后的运算结果。</li>
+<li><strong>访存取数阶段</strong><br>根据指令需要，有可能要访问主存，读取操作数，这样就进入了访存取数（Memory，MEM）阶段。此阶段的任务是：根据指令地址码，得到操作数在主存中的地址，并从主存中读取该操作数用于运算。</li>
+<li><strong>结果写回阶段</strong><br>作为最后一个阶段，结果写回（Writeback，WB）阶段把执行指令阶段的运行结果数据“写回”到某种存储形式：结果数据经常被写到CPU的内部寄存器中，以便被后续的指令快速地存取；在有些情况下，结果数据也可被写入相对较慢、但较廉价且容量较大的主存。许多指令还会改变程序状态字寄存器中标志位的状态，这些标志位标识着不同的操作结果，可被用来影响程序的动作。</li>
+</ul>
+<p>在指令执行完毕、结果数据写回之后，若无意外事件（如结果溢出等）发生，计算机就接着从程序计数器PC中取得下一条指令地址，开始新一轮的循环，下一个指令周期将顺序取出下一条指令。<br>通常情况下，一条指令可以包含按明确顺序执行的许多操作指令，CPU的工作就是执行这些指令，完成一条指令后，CPU的控制单元又将告诉指令读取器从内存中读取下一条指令来执行。这个过程不断快速地重复，快速地执行一条又一条指令。我们很容易想到，在处理这么多指令和数据的同时，由于数据转移时差和CPU处理时差，肯定会出现混乱处理的情况。为了保证每个操作准时发生，CPU需要一个时钟，时钟控制着CPU所执行的每一个动作。时钟就像一个节拍器，它不停地发出脉冲，决定CPU的步调和处理时间，这就是我们所熟悉的CPU的标称速度，也称为主频。主频数值越高，表明CPU的工作速度越快。</p>
+<h2 id="2-3-常见的机器码指令"><a href="#2-3-常见的机器码指令" class="headerlink" title="2.3 常见的机器码指令"></a>2.3 常见的机器码指令</h2><p>常见的指令可以分为五大类：</p>
+<ol>
+<li>第一类是算术类指令。我们的加减乘除，在CPU层面，都会变成一条条算术类指令。</li>
+<li>第二类是数据传输类指令。给变量赋值，在内存里读写数据，用的都是数据传输类指令。</li>
+<li>第三类是逻辑类指令。逻辑上的与或非，都是这一类指令。</li>
+<li>第四类是条件分支类指令。日常我们写的“if/else”，其实都是条件分支类指令。</li>
+<li>最后一类是无条件跳转指令。<table>
+<thead>
+<tr>
+<th>指令类型</th>
+<th>实例指令</th>
+<th>示例汇编代码</th>
+<th>含义</th>
+<th>注释</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>算术类指令</td>
+<td>add</td>
+<td>add $s1,$s2,$s3</td>
+<td>$s1=$s2+$s3</td>
+<td>将寄存器s2和s3中的数相加后放到寄存器s1中</td>
+</tr>
+<tr>
+<td>逻辑类指令</td>
+<td>or</td>
+<td>or $s1,$s2,$s3</td>
+<td>$s1=$s2</td>
+<td>$s3</td>
+</tr>
+<tr>
+<td>数据传输指令</td>
+<td>load word</td>
+<td>load $s1,10($s2)</td>
+<td>load $s1,10($s2)</td>
+<td>$s1=memory[$s2+10]</td>
+</tr>
+<tr>
+<td>条件分支指令</td>
+<td>branch on equal</td>
+<td>beq $s1,$s2, 10</td>
+<td>if($s1 == $s2) go to PC+10</td>
+<td>如果寄存器s1和s2中的值相等，从程序计数器往后跳10</td>
+</tr>
+<tr>
+<td>无条件跳转指令</td>
+<td>jump</td>
+<td>j 1000</td>
+<td>go to 1000</td>
+<td>跳转到目标地址为1000的位置</td>
+</tr>
+</tbody></table>
+</li>
+</ol>
+
+      
     </div>
+
+    
+
+    
+      
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/tags/计算机基础知识/" rel="tag"># 计算机基础知识</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/07/19/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="gitalk-container">
+    </div>
+
+  
+
+
 
         </div>
         
@@ -519,8 +673,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -618,6 +781,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1、编译型语言跟解释型语言的区别"><span class="nav-number">1.</span> <span class="nav-text">1、编译型语言跟解释型语言的区别</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2、CPU是如何执行程序的"><span class="nav-number">2.</span> <span class="nav-text">2、CPU是如何执行程序的</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-CPU的组成部件"><span class="nav-number">2.1.</span> <span class="nav-text">2.1 CPU的组成部件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-机器码在CPU中的执行过程"><span class="nav-number">2.2.</span> <span class="nav-text">2.2 机器码在CPU中的执行过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-3-常见的机器码指令"><span class="nav-number">2.3.</span> <span class="nav-text">2.3 常见的机器码指令</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -768,6 +948,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.2.0"></script>
+<script src="/js/post-details.js?v=7.2.0"></script>
+
+
 
   <script src="/js/next-boot.js?v=7.2.0"></script>
 
@@ -781,6 +965,37 @@
 
   
 
+
+  
+    
+
+<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+
+
+<script src="//cdn.jsdelivr.net/npm/js-md5@0.7.3/src/md5.min.js"></script>
+
+<script>
+  var gitalk = new Gitalk({
+    clientID: 'bb70303c39527b339c89',
+    clientSecret: '8b220dc706cfd4e3d16dcb70b5d551bfda61b738',
+    repo: 'blog_comments',
+    owner: 'TengGeGeGe',
+    admin: ['TengGeGeGe'],
+    id: md5(location.pathname),
+    
+      language: window.navigator.language || window.navigator.userLanguage,
+    
+    distractionFreeMode: 'true'
+  });
+  gitalk.render('gitalk-container');
+</script>
+
+  
 
 
   
